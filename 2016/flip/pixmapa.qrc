@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/new/resource">
+        <file>test3.gif</file>
+        <file>test4.png</file>
+        <file>star-full.ico</file>
+    </qresource>
+</RCC>
