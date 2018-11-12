@@ -2,7 +2,7 @@
 
 思路大概和phrack的文章差不多，在printf的时候覆盖file结构的flag2，只不过他用的是printf自身的洞，这边用stdout的缓存去覆盖
 
-exp 用printf_chk leak + exit handle getshell，可能麻烦了点。
+exp 用printf_chk leak + 改vtable，可能麻烦了点。
 
 有师傅用%a来leak，很强（这是真没想到，这样理论上不需要code段地址
 
